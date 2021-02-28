@@ -1,4 +1,4 @@
 #! /bin/sh
 
-docker build --tag api:latest .
-docker run -it -p 3000:3000 api:latest /bin/sh
+docker build --tag template:latest .
+docker run -it -p 3000:3000 template:latest /bin/sh
