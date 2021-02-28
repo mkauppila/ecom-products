@@ -24,5 +24,5 @@ COPY package.json ./
 COPY package-lock.json ./
 RUN npm install --production
 
-RUN npm run start:build
+CMD ["npm", "run" "start:build"]
 EXPOSE 3000
