@@ -1,6 +1,12 @@
 # Template
 
-A generic template for services
+A generic template for services.
+
+- how to setup
+  - Clone this repository,
+  - `git remote rename origin template`
+  - `git remote set-url --push template no_push` - no pushes
+  - `git remote add origin git@<where-services-repo-is>.git`
 
 ### Get the service running
 
